@@ -6,9 +6,9 @@ For each of the commands cd, ls, and cat, and using the workspace you created in
 
 ## Share an example of using the command with no arguments.
     
--cd did not return anything, because as a command it does not have an output. It simply changes the working directory when given an argument.
--Working directory: /home
--This is not an error.
+cd did not return anything, because as a command it does not have an output. It simply changes the working directory when given an argument.
+Working directory: /home
+This is not an error.
 ![Image](s1.png)
     
 ls returned "lecture1" because it will return the list of files/folders in the current directory, which is still /home
@@ -35,7 +35,7 @@ This is not an error.
 
 cat returned "/home/lecture1: Is a directory" because it is supposed to read what is in the file, but the given argument was a directory.
 Working directory: /home
-This is not an error.
+This is an error.
 ![Image](s6.png)
 
 ## Share an example of using the command with a path to a file as an argument.
@@ -47,7 +47,7 @@ This is an error.
 
 ls just returns the pathway towards the requested file.
 Working directory: /home
-This is not an error.
+This is an error, because the argument is supposed to be a directory, and therefore the command can not give the list of contained files/folders.
 ![Image](s8.png)
 
 cat returns the contents of the requested file.
