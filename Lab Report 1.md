@@ -11,11 +11,13 @@ Working directory: /home
 This is not an error, because cd is not meant to return anything.
 ![Image](s1.png)
     
+
 ls returned "lecture1" because it will return the list of files/folders in the current directory, which is still /home
 Working directory: /home
 This is not an error, because it works properly.
 ![Image](s2.png)
     
+
 cat does not return anything
 Working directory: /home
 This is an error, because the terminal stops working.
