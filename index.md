@@ -3,6 +3,6 @@ _im_
 __gonna__ 
 # add
 ## some
-[of](https://wikipedia.org/wiki/of)
+[of](https://en.wikipedia.org/wiki/English_prepositions)
 ![the](https://blog.prepscholar.com/hubfs/body-the-green-square.jpeg) 
 > Formatting
