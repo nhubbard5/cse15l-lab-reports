@@ -4,9 +4,9 @@ Nicholas Hubbard
 
 ## Share an example of using the command with no arguments.
     
-1. cd did not return anything, because as a command it does not have an output. It simply changes the working directory when given an argument.
-Working directory: /home
-This is not an error.
+1. cd did not return anything, because as a command it does not have an output. It simply changes the working directory when given an argument. <br>  
+Working directory: /home <br>  
+This is not an error. <br>   
 ![Image](s1.png)
     
 2. ls returned "lecture1" because it will return the list of files/folders in the current directory, which is still /home
