@@ -2,7 +2,7 @@
 October 18, 2023  
 Nicholas Hubbard  
 
-##Part 1      
+##Part 1 </h1>
 ![Code](lab3codescreenshot.png)    
 
 
