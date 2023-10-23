@@ -16,7 +16,7 @@ This is not an error.
     
 3. \`cat does not return anything.  
 Working directory: `/home  
-This is not an error, however it is the cause of an infinite loop. Using  
+This is not an error, however it is the cause of an infinite loop. Using Ctrl+C will stop the loop.  
 ![Image](s3.png)
 
 ## Share an exmaple of using the command with a path to a directory as an argument.
