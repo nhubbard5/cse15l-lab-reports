@@ -55,7 +55,7 @@ Let's look at the `find command.
 Here are 4 interesting command-line options:  
 1. -type
 
->The first example I will show is -type d, where d means directory.  
+>>The first example I will show is -type d, where d means directory.  
 ~~~
 find technical/ -type d
 technica/
@@ -70,14 +70,14 @@ technical/government/Media
 technica/government/Post_Rate_Comm
 technical/plos
 ~~~
->The second example is with -type f, for normal files.
+>>The second example is with -type f, for normal files.
 ~~~
 $ find technical/ -type f > type-f-results.txt
 wc type-f-results.txt
 1391 1391 54178 type-f-results.txt
 ~~~
 
-Using -type followed by a letter corresponding to a type of result will limit results to just the requested type. This command is useful when searching huge directories of different file types.
+>>Using -type followed by a letter corresponding to a type of result will limit results to just the requested type. This command is useful when searching huge directories of different file types.
 
 2. -maxdepth
 4. -name
