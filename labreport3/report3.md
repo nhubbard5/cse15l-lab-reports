@@ -153,6 +153,8 @@ DraftRecom-PDF.txt
 ~~~
 
 This command is very useful when it comes to clearing out files. It becomes even more useful in conjunction with other command-line options that can help narrow down which files will be deleted.  
-\n\n
+  
 
+
+  
 *I found about all of the first 3 examples from redhat.com/sysadminn/linux-find-command and the final example from linuxteck.com/find-command-in-linux-with-examples/*
