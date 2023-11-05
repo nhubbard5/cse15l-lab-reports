@@ -132,7 +132,7 @@ Using -name is extremely useful when it comes to looking for a file that could b
 
 4. -delete
 
-The first example I will show is using -delete to delete all files within /government/About_LSC
+The first example I will show is using -delete to delete the following directory, /government/About_LSC
 ~~~
 $ find technical/government/About_LSC -delete
 
