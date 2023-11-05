@@ -14,9 +14,9 @@ The same method is called after this url is entered, however the relevant argume
 
 ## Part 2    
 ![Private Key Path](lab3privkeypath.png)  
-The above image shows the path to the private key on my personal computer. The path is `C:/Users/njmhu/.ssh    
+The above image shows the path to the private key on my personal computer. The path is \`C:/Users/njmhu/.ssh    
 ![Public Key Path](lab3pubkeypath.png)  
-The above image shows the path to the authorized_keys file which contains the public key.  
+The above image shows the path to the authorized_keys file which contains the public key.  The path is `/home/linux/ieng6/cs15lfa23/cs15lfa23pt/.ssh    
 ![Logged In Without Password](loggedin.png)  
 Finally, the above image shows a successful log in without my password being requested.  
 
