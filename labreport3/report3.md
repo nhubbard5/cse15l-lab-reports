@@ -156,5 +156,5 @@ This command is very useful when it comes to clearing out files. It becomes even
   
 
 
-  
-*I found about all of the first 3 examples from redhat.com/sysadminn/linux-find-command and the final example from linuxteck.com/find-command-in-linux-with-examples/*
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+I found about all of the first 3 options from redhat.com/sysadminn/linux-find-command and the final option from linuxteck.com/find-command-in-linux-with-examples/
