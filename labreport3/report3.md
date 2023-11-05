@@ -24,3 +24,13 @@ Failure-Inducing Input for the Buggy Program:
   }
 ~~~  
 
+Non-Failure-Inducing Input for the Buggy Program:  
+~~~
+@Test
+  public void testOriginalReversedNoFailure() {
+    int[] input1 = {};
+    assertArrayEquals(new int[] {}, ArrayExamples.originalReversed(input1));
+  }
+~~~
+
+The Symptom:  
