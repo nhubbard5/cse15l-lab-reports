@@ -1,5 +1,6 @@
-# __Lab Report 1__
+# __Lab Report 2__
 October 18, 2023  
+resubmit: 11/5/23    
 Nicholas Hubbard  
 
 ## Part 1
