@@ -34,3 +34,21 @@ Non-Failure-Inducing Input for the Buggy Program:
 ~~~
 
 The Symptom:  
+![Code](report3screenshot1.png)  
+
+The Bug:
+The buggy code was shared at the start of this report.  
+The new code:
+~~~
+static int[] fixedReversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+~~~
+
+The old code was incorrect because it was trying to put the values of the holder\`newArray array into the input \`arr array, and then return the input array. The new code solves this problem by moving the input array's values into the newArray from back-to-front, then returning the newArray.  
+
+## Part 2
