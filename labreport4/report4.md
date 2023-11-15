@@ -31,8 +31,8 @@ Use the following commands:
 \'bash test.sh
 
 ## Step 9: Commit and push the resulting change to your Github account
-\'git commit -a
-- \<i>
-- Type in the commit message "fixed index1 -> index2"
-- \<Esc> to leave insert mode  
+\'git commit -a  
+\<i> to enter insert mode   
+Type in the commit message "fixed index1 -> index2"  
+\<Esc> to leave insert mode  
 \'git push origin
