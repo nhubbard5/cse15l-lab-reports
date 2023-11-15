@@ -7,14 +7,14 @@ Nicholas Hubbard
 To log into my remote machine, I just run 'ssh cs15lfa23pt@ieng6.ucsd.edu and because of the keygen from weeks ago, I don't need to input my password to login anymore.
 
 ## Step 5: Clone your fork of thhe repository from your Github account (using the SSH URL)
-'git clone git@github.com:nhubbard5/lab7.git
+\'git clone git@github.com:nhubbard5/lab7.git
 
 ## Step 6: Run the tests, demonstrating that they fail
-'cd lab7  
-'bash test.sh  
+\'cd lab7  
+\'bash test.sh  
 
 ## Step 7: Edit the code file ListExamples.java to fix the failing test
-'Open the file with 'vim ListExamples.java
+\'Open the file with \'vim ListExamples.java
 Use the following commands:
 - \<?>: search in reverse for the following pattern
 - \<i>: using 'i' as the pattern highlights the final i, which is in the last repetitition of index1
@@ -28,11 +28,11 @@ Use the following commands:
 - \<Enter>: saves and quits
 
 ## Step 8: Run the tests, demonstrating that they now succeed
-'bash test.sh
+\'bash test.sh
 
 ## Step 9: Commit and push the resulting change to your Github account
-'git commit -a
--<i>
+\'git commit -a
+- \<i>
 - Type in the commit message "fixed index1 -> index2"
-- <Esc> to leave insert mode
-'git push origin
+- \<Esc> to leave insert mode
+\'git push origin
