@@ -16,16 +16,16 @@ To log into my remote machine, I just run 'ssh cs15lfa23pt@ieng6.ucsd.edu and be
 ## Step 7: Edit the code file ListExamples.java to fix the failing test
 'Open the file with 'vim ListExamples.java
 Use the following commands:
-- <?>: search in reverse for the following pattern
-- <i>: using 'i' as the pattern highlights the final i, which is in the last repetitition of index1
-- <Enter>: closes the search
-- <e>: goes to the end of the highlighted word, which in this case highlights the '1'
-- <x>: deletes the 1
-- <i>: enter Insert mode
-- <2>: insert the character, 2, which finally makes the change from index1 to index2
-- <Esc>: leave Insert mode
-- Type in <:wq> to prepare to save and quit
-- <Enter>: saves and quits
+- \<?>: search in reverse for the following pattern
+- \<i>: using 'i' as the pattern highlights the final i, which is in the last repetitition of index1
+- \<Enter>: closes the search
+- \<e>: goes to the end of the highlighted word, which in this case highlights the '1'
+- \<x>: deletes the 1
+- \<i>: enter Insert mode
+- \<2>: insert the character, 2, which finally makes the change from index1 to index2
+- \<Esc>: leave Insert mode
+- \Type in <:wq> to prepare to save and quit
+- \<Enter>: saves and quits
 
 ## Step 8: Run the tests, demonstrating that they now succeed
 'bash test.sh
