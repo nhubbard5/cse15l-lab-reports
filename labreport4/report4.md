@@ -34,5 +34,5 @@ Use the following commands:
 \'git commit -a
 - \<i>
 - Type in the commit message "fixed index1 -> index2"
-- \<Esc> to leave insert mode
+- \<Esc> to leave insert mode  
 'git push origin
