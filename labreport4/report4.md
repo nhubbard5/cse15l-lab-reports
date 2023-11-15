@@ -24,7 +24,7 @@ Use the following commands:
 - \<i>: enter Insert mode
 - \<2>: insert the character, 2, which finally makes the change from index1 to index2
 - \<Esc>: leave Insert mode
-- \Type in <:wq> to prepare to save and quit
+- Type in <:wq> to prepare to save and quit
 - \<Enter>: saves and quits
 
 ## Step 8: Run the tests, demonstrating that they now succeed
