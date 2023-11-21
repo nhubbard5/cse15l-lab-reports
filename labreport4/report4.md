@@ -1,4 +1,4 @@
-![image](https://github.com/nhubbard5/cse15l-lab-reports/assets/68636576/f2c91bf3-cd7a-4021-8d33-ba2f5d49e672)# __Lab Report 4__  
+# __Lab Report 4__  
 November 19, 2023  
 Nicholas Hubbard  
 
