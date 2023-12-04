@@ -8,9 +8,10 @@ Anonymous:
 ~~~
 Hello, I am trying to debug the ListExamples.java file, but I'm getting an error saying "java.lang.OutOfMemoryError: Java heap space"  
 
-I found some articles describing the error and its possible causes (memory leaks, large data sets, insufficient heap size, or poor memory management) and I believe it would have to do with a memory leak, as the sets themselves are very small.  
-![s1](s1.png)  
+I found some articles describing the error and its possible causes (memory leaks, large data sets, insufficient heap size, or poor memory management) and I believe it would have to do with a memory leak, as the sets themselves are very small.
 ~~~
+![s1](s1.png)  
+
 
 TA:  
 ~~~
@@ -20,9 +21,9 @@ Hello, thank you for the question. I think you are onto the right path with the 
 Anonymous:  
 ~~~
 Hi, thank you for your help. I found the bug in the while loop at line 41, where the index1 variable was being incremented instead of index2, so the while's condition was never fulfilled.  
+~~~
 ![s2](s2.png)  
 ![s3](s3.png)  
-~~~
 
 INFORMATION:  
 ~~~
