@@ -27,8 +27,9 @@ Hi, thank you for your help. I found the bug in the while loop at line 41, where
 
 INFORMATION:  
 ~~~
-
+The file structure is the same as the fourth skill demo. The starting file contents are the same, except for the fact that I already debugged the filter method, so this post would focus on the merge method's bug only. Triggering the bug happened when running "bash test.sh" in the bash terminal, as shown in the first screenshot. To fix the bug, I just changed index1 to index2 on line 43, as the memory error stemmed from the infinite while loop.
 ~~~
+![s4](s4.png)
 
 ## Part 2 - Reflection
 One piece of lab material that I found very interesting was our focus on vim. I think that the ability to change file contents from within the terminal was extremely fascinating. Especially regarding its usage in the fourth skill demo, changing the contents of a .java file for the sake of debugging is something that really helped me see its application in real-time.
